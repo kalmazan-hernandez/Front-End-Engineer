@@ -5,15 +5,17 @@
    
   h1 {
     color: SeaGreen;
+    border-style:solid;
+    border-color:#287EC7;
+    size: 0;
   }
-   
-   
-  p, 
-  li {
-    font-size: 18px;
+
+  #first {
+    padding: 50px 100px;
+    margin: 50px 100px;
   }
-   
-   
-  a {
-    text-decoration: none;
+
+  #last {
+    padding: 50px 100px;
+    margin: 25px 100px;
   }
