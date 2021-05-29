@@ -1,0 +1,20 @@
+.breadcrumb > li {
+  display: inline;
+}
+
+.breadcrumb li.location+li.location::before {
+  content: ">"; 
+}
+
+
+.breadcrumb li.attribute {
+  color: blue; 
+}
+
+.breadcrumb li.attribute::after {
+  content: "x";
+  color: red;
+
+  padding: 2px 10px;
+  font-size: 18px;
+}
